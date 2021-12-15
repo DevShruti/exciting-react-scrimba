@@ -1,15 +1,8 @@
 
 import './App.css';
 import Header from './Header.js';
+import Footer from './Footer.js'
 
-
-function Footer() {
-  return (
-      <footer>
-          <small>© 2021 Dev Shruti. All rights reserved.</small>
-      </footer>
-  )
-}
 
 function MainContent() {
   return (
