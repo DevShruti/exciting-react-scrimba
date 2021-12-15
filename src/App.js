@@ -1,20 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
 
-function Header() {
-  return (
-      <header>
-          <nav className="nav">
-              <img src={logo} alt="logo" className="nav-logo" />
-              <ul className="nav-items">
-                  <li>Pricing</li>
-                  <li>About</li>
-                  <li>Contact</li>
-              </ul>
-          </nav>
-      </header>
-  )
-}
+import './App.css';
+import Header from './Header.js';
+
 
 function Footer() {
   return (
@@ -41,7 +28,7 @@ function MainContent() {
 function Page() {
   return (
       <div>
-          <Header />
+          <Header/>
           <MainContent />
           <Footer />
       </div>
